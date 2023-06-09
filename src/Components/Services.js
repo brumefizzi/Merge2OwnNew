@@ -55,7 +55,7 @@ export const Services = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>About Us</h2>
-                <p>Our services aim to remove barriers to entry for individuals who cannot purchase real estate property on their own, foster trust among co-owners, provide expert guidance, and enable informed decision-making in the co-ownership process.</p>
+                <p>M2O is an early-stage startup that recently won the Greenhouse Inc Social Impact Fund Pitch Competition Award. The platform is designed to address the limited personal network, counterparty trust, and home affordability concerns of first-time homebuyers and others who encounter significant barriers to home ownership in Canada. Are you experiencing challenges in buying your own home or interested in providing services to enable people buy their own home? If you are excited as we are in finding creative solutions, please sign up to stay informed when we Go Live.</p>
                 <Tab.Container id="services-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
