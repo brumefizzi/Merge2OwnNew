@@ -1,29 +1,35 @@
 import React from 'react';
-import { Container, Row, Col } from "react-bootstrap";
-import logo from "../assets/img/logo.png";
-import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
+import { MDBFooter } from 'mdb-react-ui-kit';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone, faEnvelope, faMapMarker } from '@fortawesome/free-solid-svg-icons';
 
 export const Footer = () => {
   return (
-    <footer className="footer">
-      <h2>Interested to learn more? Let's talk</h2>
-      <Container>
-        <Row className="align-items-center">          
-          <Col size={12} sm={6}>
-            <img src={logo} alt="Logo" />
-          </Col>
-          <Col size={12} sm={6} className="text-center text-sm-end">
-            <div className="social-icon">
-              <a href="https://www.instagram.com/uofwaterloo/"><img src={navIcon1} alt="Icon" /></a>
-              <a href="https://www.instagram.com/uofwaterloo/"><img src={navIcon2} alt="Icon" /></a>
-              <a href="https://www.instagram.com/uofwaterloo/"><img src={navIcon3} alt="Icon" /></a>
-            </div>
-            <p>Copyright M2O 2023. All Rights Reserved</p>
-          </Col>
-        </Row>
-      </Container>
-    </footer>
-  )
+    <MDBFooter className='text-center text-black' style={{ backgroundColor: '#fee074' }}>
+      <h2 className='p-4'>Interested to learn more? Let's talk!</h2>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-4">
+            <FontAwesomeIcon icon={faPhone} />
+            <p>Call us: 437-988-4141</p>
+          </div>
+          <div className="col-md-4">
+            <FontAwesomeIcon icon={faEnvelope} />
+            <p>info@merge2own.com</p>
+          </div>
+          <div className="col-md-4">
+            <FontAwesomeIcon icon={faMapMarker} />
+            <p>Location: Waterloo</p>
+          </div>
+        </div>
+      </div>
+      
+      <div className='text-center text-dark p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+        © 2023 Copyright:
+        <a className='text-dark' href='https://mdbootstrap.com/'>
+          M2O
+        </a>
+      </div>
+    </MDBFooter>
+  );
 }
