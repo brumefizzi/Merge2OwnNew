@@ -364,7 +364,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .service {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: whitesmoke;
 }
 .service h2 {
 	font-size: 45px;
