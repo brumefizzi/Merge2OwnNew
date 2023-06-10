@@ -95,7 +95,7 @@ nav.navbar.scrolled {
   background-color: #1a2e30;
 }
 nav.navbar a.navbar-brand {
-    width: 100px;
+    width: 250px;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -252,7 +252,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 150px 0 100px 0;
   background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
@@ -301,9 +301,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner button:hover svg {
   margin-left: 25px;
 }
-.banner img {
-  animation: updown 3s linear infinite;
-}
+
+
 @keyframes updown {
     0% {
         transform: translateY(-20px);
@@ -578,14 +577,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .footer {
   padding: 0 0 50px 0;
   background-color: #fee074;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .newsletter-bx {
   background: #FFFFFF;
   border-radius: 55px;
-  color: #121212;
+  color: #fee074;
   padding: 85px 125px;
   margin-bottom: 80px;
   margin-top: -122px;
@@ -635,10 +634,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 0;
   padding: 0 15px;
 }
+
 .new-email-bx button {
-  background-color :#24694f ; 
-  ;
-  padding: 20px 65px;
+  background-color: #24694f; 
+  padding: 10px 20px;  /* Adjust the padding here */
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.5px;
@@ -820,12 +819,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: rgba(254, 224, 116, 1);
 }
 .desktop5-vector {
-  top: 109px;
-  left: 107px;
   width: 308px;
   max-width: 100%;
   height: 46px;
-  position: absolute;
 }
 .desktop5-logo {
   top: 52px;
