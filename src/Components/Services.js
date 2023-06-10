@@ -11,7 +11,7 @@ export const Services = () => {
               <div>
                 <h2>About Us</h2>
                 <p className='text-black'>Merge 2 Own is an early-stage startup that recently won the
-                Greenhouse Inc Social Impact Fund Pitch Competition Award. The
+                Greenhouse Inc Social Impact Fund Pitch Competition Award.The
                 platform is designed to address the limited personal network,
                 counterparty trust, and home affordability concerns of
                 first-time homebuyers and others who encounter significant

@@ -25,14 +25,17 @@ export const Banner = () => {
                       </span>
                       <span className="desktop5-text09">Everybody!</span>
                     </div>
-                    
                   </div>
                   <div style={{ position: 'relative', zIndex: 2, margin: '20px 0' }}>
-                    <p>
-                      Are you experiencing challenges in buying your own home or interested in providing services to enable people buy their own home?
-                      If you are excited as we are in finding creative solutions, please join the waitlist!
-                    </p>
-                    <MailchimpForm />
+                    <Row>
+                      <p>
+                        Are you experiencing challenges in buying your own home or interested in providing services to enable people buy their own home?
+                        If you are excited as we are in finding creative solutions, please join the waitlist!
+                      </p>
+                    </Row>
+                    <Row>
+                      <MailchimpForm />
+                    </Row>
                   </div>
                 </div>
               }

@@ -25,9 +25,9 @@ export const Footer = () => {
       </div>
       
       <div className='text-center text-dark p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        © 2023 Copyright:
+        © 2023 Copyright   
         <a className='text-dark' href='https://mdbootstrap.com/'>
-          M2O
+          : M2O
         </a>
       </div>
     </MDBFooter>
