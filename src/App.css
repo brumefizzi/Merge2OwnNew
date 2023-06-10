@@ -301,6 +301,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner button:hover svg {
   margin-left: 25px;
 }
+.waitlist-btn {
+  display: inline-block;
+  background-color: #24694f;
+  color: #ffffff;
+  padding: 15px 30px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+  transition: background-color 0.3s ease;
+  max-width: 50px; /*this restricts the button width*/
+}
+
+.waitlist-btn:hover {
+  background-color: #1a5134;
+}
 
 
 @keyframes updown {
@@ -486,6 +503,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
+
+.rounded-img {
+  width: 100%;
+  border-radius: 50px;
+  padding: 20px 0 0 0;
+  
+}
+
 
 /************ Contacts Css ************/
 .contact {

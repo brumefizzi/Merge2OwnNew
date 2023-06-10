@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.png";
-import { MailchimpForm } from './MailchimpForm';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -34,7 +33,9 @@ export const Banner = () => {
                       </p>
                     </Row>
                     <Row>
-                      <MailchimpForm />
+                      <a href="https://mailchi.mp/e85a62322b90/join-the-waitlist" class="waitlist-btn">
+                        Join the Waitlist
+                      </a>
                     </Row>
                   </div>
                 </div>
