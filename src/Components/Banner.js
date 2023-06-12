@@ -26,7 +26,7 @@ export const Banner = () => {
                               <div className="desktop5-group206">
                                 <div className="desktop5-text04">
                                   <span className="desktop5-text05">
-                                    <span>Own your first home</span>
+                                    <span>Own your first home </span>
                                     <br />
                                     <span>through </span>
                                   </span>
