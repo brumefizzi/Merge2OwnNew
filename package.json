@@ -1,5 +1,6 @@
 {
   "name": "mergetoown-app",
+  "homepage": "https://merge2own.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

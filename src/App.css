@@ -282,6 +282,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
+  padding-bottom: 30px;
 }
 .banner button {
   color: #fff;
@@ -821,18 +822,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   flex-shrink: 1;
 }
 .desktop5-text04 {
-  top: -180px;
+  top: -170px;
   left: 0px;
   color: rgba(255, 255, 255, 1);
   width: 827px;
   max-width: 100%;
   height: auto;
   position: absolute;
-  font-size: 64px;
+  font-size: 70px;
   font-style: Medium;
   text-align: left;
   font-family: DM Sans;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 72px;
   font-stretch: normal;
   text-decoration: none;
@@ -842,6 +843,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .desktop5-text09 {
   color: rgba(254, 224, 116, 1);
+  
 }
 .desktop5-vector {
   width: 308px;
@@ -1457,3 +1459,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     text-align: center;
   }
 }
+/* Existing CSS */
+
+/* for th ebanner */
+@media (max-width: 576px) { 
+  .desktop5-text04, .desktop5-text05 {
+    font-size: 32px; /* Adjust this value if needed */
+  }
+}
+
+@media (max-width: 768px) {
+  .desktop5-group206 {
+    margin-bottom: 40px; /* Adjust this value if needed */
+  }
+}
+
+.mobile-content {
+  margin-top: 100px; /* Adjust this value if needed */
+}
+
